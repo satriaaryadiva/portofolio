@@ -21,15 +21,6 @@ const jumbo  = document.querySelector  ( '.jumbo');
 contimage.addEventListener('click',function(e){
     if( e.target.className == 'thumb'){
         jumbo.src = e.target.src;
-        jumbo.classList.add('.fade');
-        setTimeout(
-            function(){
-                    jumbo.classList.remove('.fade');
-                    
-            }
-           
-        );
-       
     }
 
 });
